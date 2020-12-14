@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-silence-css-order-warning",
+  "name": "@mediacurrent/gatsby-plugin-silence-css-order-warning",
   "version": "1.0.0",
   "description": "Gatsby plugin to silence CSS order warning when using CSS modules or other CSS in JS.",
   "main": "gatsby-node.js",

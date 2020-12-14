@@ -11,14 +11,14 @@ warn chunk styles [mini-css-extract-plugin] Conflicting order. Following module 
 As long as you are properly using your CSS-in-JS library, this warning can be ignored.
 ## How to install
 
-`npm install gatsby-plugin-silence-css-order-warning`
+`npm install @mediacurrent/gatsby-plugin-silence-css-order-warning`
 
 Then add the plugin to your `gatsby-config.js` file.
 
 ```
 module.exports = {
   plugins: [
-    'gatsby-plugin-silence-css-order-warning'
+    '@mediacurrent/gatsby-plugin-silence-css-order-warning'
   ]
 }
 ```
