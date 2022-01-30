@@ -1,7 +1,7 @@
 exports.onCreateWebpackConfig = ({ stage, getConfig, actions }) => {
   // Silence 'conflicting order' warning for CSS modules.
   // This is only an issue with regular CSS being imported.
-  if (stage === 'build-javascript') {
+  if (stage === 'develop') {
     const config = getConfig()
     // Get the mini-css-extract-plugin
     const miniCssExtractPlugin = config.plugins.find(
